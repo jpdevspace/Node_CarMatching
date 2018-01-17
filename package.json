@@ -1,0 +1,27 @@
+{
+  "name": "node_friendmatching",
+  "version": "1.0.0",
+  "description": "A compatibility-based \"Friend-Matching\" application -- basically a dating app. This site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test this"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdevspace/Node_FriendMatching.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Jean Paul Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpdevspace/Node_FriendMatching/issues"
+  },
+  "homepage": "https://github.com/jpdevspace/Node_FriendMatching#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
