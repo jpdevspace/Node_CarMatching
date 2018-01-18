@@ -20,7 +20,13 @@ app.get('/', (req, res) => {
 
 app.get('/survey', (req, res) => {
     res.sendFile(path.join(__dirname, "/public/survey.html"));
-})
+});
+
+app.post('/survey', (req, res) => {
+    console.log(req.body);
+});
+
+
 
 // Initiating Server
 app.listen(3000, () => console.log('App listening on port 3000!'));
