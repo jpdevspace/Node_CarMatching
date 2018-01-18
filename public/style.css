@@ -18,11 +18,12 @@
 #survey {
     margin-top: 5em;
 }
-
-#survey-now {
+.ctr-btn {
     display: block;
-    width: 30%;
     margin: 0 auto;
+}
+#survey-now {
+    width: 35%;
 }
 
 /**************************************
