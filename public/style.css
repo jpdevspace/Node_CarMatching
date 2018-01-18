@@ -1,3 +1,6 @@
+/**************************************
+            NAV MENU
+**************************************/      
 .logo{
     padding: 1em 0 10em 0;
     color: #fff;
@@ -21,6 +24,10 @@
     width: 30%;
     margin: 0 auto;
 }
+
+/**************************************
+            MAIN SECTION
+**************************************/  
 main {
     padding-left: 300px;
 }
@@ -32,5 +39,19 @@ main {
 }
 
 #main-content {
-    margin-top: 2em;
+    margin-top: 5em;
+}
+
+/**************************************
+            SURVEY FORM
+**************************************/  
+.dropdown-content li>span {
+    color: #d50000;
+}
+input[type=text]:not(.browser-default).validate+label{
+    color: #d50000 !important;
+}
+input[type=text]:not(.browser-default), input[type=password]:not(.browser-default) {
+    border-bottom: 1px solid #d50000 !important;
+    box-shadow: 0 1px 0 0 #d50000   !important;
 }
