@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>CarFinder | 99.991% Accurate</title>
+</head>
+
+<body>
+    <header class="col s4">
+        <ul class="side-nav fixed">
+            <li class="logo">
+                <a href="/" id="logo-container" class="brand-logo">
+                    <h1>Car
+                        <strong>Finder</strong>
+                    </h1>
+                    <h6 class="right-align">By Jean Paul</h6>
+                </a>
+            </li>
+            <li id="survey" class="bold">
+                <a href="/survey" class="waves-effect waves-red">
+                    <i class="material-icons">assignment_ind</i>Take Survey</a>
+            </li>
+            <li class="bold">
+                <a href="/api/all" class="waves-effect waves-red">
+                    <i class="material-icons">developer_mode</i>Developers</a>
+            </li>
+            <li class="bold">
+                <a href="https://github.com/jpdevspace" class="waves-effect waves-red" target="_blank">
+                    <i class="material-icons">device_hub</i>Github</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div id="main-content" class="col s12">
+                    <h1 class="center-align">Let's find your car</h1>
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="roadtrips">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                                <label>I love roadtrips</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="outdoor">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                                <label>Outdoor activities is all I want to do</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="alone">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (By myself)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (or more people)</option>
+                                </select>
+                                <label>I'm always travelling with at least</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="electric">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                                <label>Global Warming is a serious thread</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="miami">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Less than 30 mins drive)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (+3 hours drive)</option>
+                                </select>
+                                <label>I live near Miami Beach</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select name="batman">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 (Not even in the DC Universe)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (My first name is Bruce)</option>
+                                </select>
+                                <label>Are you the owner of Wayne Enterprises?</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- Own JS -->
+    <script src="./main.js"></script>
+</body>
+
+</html>

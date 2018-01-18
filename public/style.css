@@ -21,9 +21,11 @@
     width: 30%;
     margin: 0 auto;
 }
-
-main{
+main {
     padding-left: 300px;
+}
+#main{
+ 
     height: 100vh;
     background: rgba(0, 0, 0, 0.6) url('./imgs/engine2.jpg') no-repeat center;
     background-size: cover;
