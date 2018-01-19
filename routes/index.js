@@ -16,10 +16,15 @@ router.get('/survey', (req, res) => {
 
 router.post('/survey', (req, res) => {
     // User's choices during survey
-    let userData = req.body;
+    let userData = {
+        roadtrips: req.body.roadtrips,
+        outdoor: req.body.outdoor,
+        alone: req.body.alone,
+        electric: req.body.electric,
+        miami: req.body.miami,
+        batman: req.body.batman,
+    }
 
-    console.log(userData);
- 
     // Calculating the best match algorithm
     let eachDiffArr = [];   // Holds the difference every user and data (userData.roadtrip - carData.roadtrip... for every property)
     let totalSumOfDiff = 0; // Holds the total sum of the difference for every car in our data
@@ -45,7 +50,7 @@ router.post('/survey', (req, res) => {
     let bestMatch = Math.min(...finalResultArr); // Passes each number in the array as a parameter to the Math.min function
     let bestMatchIndex = finalResultArr.indexOf(bestMatch); // Get the index of the lowest number
      
-
+    // Response to the front end
     res.send(carData[bestMatchIndex]); // Finds the corresponding car in our car data array
 });
 

@@ -1,7 +1,7 @@
 const cars = [
     {
         "car": "Toyota Prius",
-        "img": "../public/imgs/prius.jpg",
+        "img": "/imgs/prius.jpg",
         "roadtrips": 4,
         "outdoor": 1,
         "alone": 4,
@@ -11,7 +11,7 @@ const cars = [
     },
     {
         "car": "Batmobile",
-        "img": "../public/imgs/batmobile.jpeg",
+        "img": "/imgs/batmobile.jpeg",
         "roadtrips": 2,
         "outdoor": 5,
         "alone": 1,
@@ -21,7 +21,7 @@ const cars = [
     },
     {
         "car": "Toyota Highlander",
-        "img": "../public/imgs/highlander.jpg",
+        "img": "/imgs/highlander.jpg",
         "roadtrips": 4,
         "outdoor": 4,
         "alone": 4,
@@ -31,7 +31,7 @@ const cars = [
     },
     {
         "car": "Jeep Wrangler",
-        "img": "../public/imgs/jeep.jpg",
+        "img": "/imgs/jeep.jpg",
         "roadtrips": 4,
         "outdoor": 5,
         "alone": 4,
@@ -41,7 +41,7 @@ const cars = [
     },
     {
         "car": "Lamborghini",
-        "img": "../public/imgs/lamborghini.jpg",
+        "img": "/imgs/lamborghini.jpg",
         "roadtrips": 1,
         "outdoor": 1,
         "alone": 2,
@@ -51,7 +51,7 @@ const cars = [
     },
     {
         "car": "Mazda Miata",
-        "img": "../public/imgs/miata.jpg",
+        "img": "/imgs/miata.jpg",
         "roadtrips": 3,
         "outdoor": 1,
         "alone": 2,
@@ -61,7 +61,7 @@ const cars = [
     },
     {
         "car": "Mini Van",
-        "img": "../public/imgs/minivan.jpg",
+        "img": "/imgs/minivan.jpg",
         "roadtrips": 5,
         "outdoor": 2,
         "alone": 5,
@@ -71,7 +71,7 @@ const cars = [
     },
     {
         "car": "Tesla Model 3",
-        "img": "../public/imgs/tesla.jpg",
+        "img": "/imgs/tesla.jpg",
         "roadtrips": 4,
         "outdoor": 3,
         "alone": 4,
@@ -81,7 +81,7 @@ const cars = [
     },
     {
         "car": "Van Life 4 U",
-        "img": "../public/imgs/vanlife.jpg",
+        "img": "/imgs/vanlife.jpg",
         "roadtrips": 5,
         "outdoor": 3,
         "alone": 3,
