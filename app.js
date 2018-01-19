@@ -7,7 +7,7 @@ const mainRoute = require('./routes');
 // Requiring router for API
 const apiRoute = require('./routes/api.js')
 
-
+const port = process.env.PORT || 3000;
 // Initiating our Express App
 const app = express();
 
@@ -29,4 +29,4 @@ app.use('/api', apiRoute);
 
 
 // Initiating Server
-app.listen(3000, () => console.log('App listening on port 3000!'));
+app.listen(port, () => console.log('App listening on port 3000!'));
