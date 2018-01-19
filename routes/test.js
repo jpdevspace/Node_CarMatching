@@ -122,3 +122,5 @@ for (let i = 0; i < carData.length; i++) {
 }
 
 console.log(finalResultArr);
+const x = finalResultArr.indexOf((Math.min(...finalResultArr)));
+console.log(carData[x]);
