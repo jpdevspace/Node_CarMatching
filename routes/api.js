@@ -7,7 +7,6 @@ const carData = require('../data/cars.js');
 
 // api/cars Route
 router.get('/cars', (req, res) => {
-    console.log(carData);
     res.send(carData);
 });
 
