@@ -1,7 +1,7 @@
 # Node_CarMatching
-A compatibility-based "Friend-Matching" application -- basically a dating app. This site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+A compatibility-based "Car-Matching" web app. It takes in results from users' surveys, then compare their answers with their available cars. The app will then display the name and picture of the car with the best overall match.
 
-## See it live on: https://warm-falls-40817.herokuapp.com/
+## See it live on: https://jpcarmatching.herokuapp.com/ 
 
 ![alt text][screenshot]
 
